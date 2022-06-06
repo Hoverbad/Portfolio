@@ -1,0 +1,68 @@
+
+body {
+    padding-top: 50px; /* Padding for .navbar-fixed-top. Change value if navbar height changes. Remove if using .navbar-static-top. */
+    background: #DCE8F2;
+background: -moz-linear-gradient(-45deg, #DCE8F2 0%, #D8DEEB 22%, #8193F0 100%);
+background: -webkit-linear-gradient(-45deg, #DCE8F2 0%, #D8DEEB 22%, #8193F0 100%);
+background: linear-gradient(135deg, #DCE8F2 0%, #D8DEEB 22%, #8193F0 100%);
+}
+      
+
+
+.card-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax);
+    gap: 1rem; 
+    font-style: white;
+}
+
+
+
+.portfolio-item {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Short Stack', cursive;
+    font-size:x-large;
+    font-style: rgb(255, 255, 255)
+}
+
+.row-h3 {
+    font-family: 'Short Stack', cursive;
+    font-size: larger;
+    font-style: white;
+}
+
+.flex-h1 {
+    font-size: xx-large;
+    font-family: 'Short Stack', cursive;
+}
+
+.portfolio-item {
+    font-family: 'Short Stack', cursive;
+    font-size:x-large;
+    font-style: rgb(255, 255, 255)
+}
+
+
+
+.footer-blurb {
+    padding: 30px 0;
+	text-align: center;
+    background-color: lightskyblue;
+}
+
+.footer-blurb h3 {
+    color: midnightblue;
+    }
+    
+.footer-blurb-item {
+    padding: 30px 0;
+    }
+ 
+.copyright {
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 0;
+}
